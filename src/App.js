@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from './components/Header.js';
+import TabMenu from './components/TabMenu.js';
 
 function App() {
   return (
-    <Header />
+    <TabMenu />
   );
 }
 
