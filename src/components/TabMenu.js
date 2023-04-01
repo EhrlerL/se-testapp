@@ -4,7 +4,6 @@ import Tab from 'react-bootstrap/Tab';
 import Image from 'react-bootstrap/Image'
 
 import Start from './Start';
-import Footer from './Footer';
 import About from './About';
 
 function TabMenu(props) {
