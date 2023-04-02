@@ -1,5 +1,5 @@
 # Sources
-This is a list of sources from the Software Engineering presentation about React.
+This is a list of sources from the Software Engineering ePortfolio presentation about React.
 
 ## React
 - [Official React Website](https://react.dev/)
