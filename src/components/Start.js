@@ -8,15 +8,6 @@ import Image from 'react-bootstrap/Image';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 function Home() {
-    const popover = (
-        <Popover id="popover-basic">
-            <Popover.Header as="h3">Hello there</Popover.Header>
-            <Popover.Body>
-                This is a so-called Popover. It is basically a tooltip on steroides.
-            </Popover.Body>
-        </Popover>
-    );
-    
     return (
         <>
         {/* BACKGROUND IMAGE */}
@@ -30,7 +21,7 @@ function Home() {
         
         <Row className="justify-content-center align-items-center mx-5 mb-3">
             <Col>
-            <Card>
+            <Card border="info">
                 <Card.Body>
                     <Card.Text>
                         This simple web app is part of the Software Engineering presentation about React. It's purpose is to demonstrate some of the key functions of component-based development with React.
@@ -44,10 +35,7 @@ function Home() {
                     <hr/>
                     For further information, you can check the GitHub Repository. In addition to the source code, you will also find the sources which provide useful stuff about React, Bootstrap and JSX.
                     </Card.Text>
-                    {/*<Button href="https://github.com/EhrlerL/se-testapp" target="_blank" variant="primary" type="button" >GitHub</Button>
-                    <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
-                        <Button variant="primary">GitHub</Button>
-                    </OverlayTrigger>*/}
+                    {/**/}
                 </Card.Body>
 
             </Card>

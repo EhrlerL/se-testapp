@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image'
 
 import Start from './Start';
 import About from './About';
+import Development from './Development';
 
 function TabMenu(props) {
     return (
@@ -19,7 +20,7 @@ function TabMenu(props) {
                     <About />
                 </Tab>
                 <Tab eventKey="dev" title="Development">
-                    
+                    <Development />
                 </Tab>
                 <Tab eventKey="code" title="Code Examples">
 

@@ -14,9 +14,9 @@ function About(props) {
             <Col>
                 <Card border="info">
                     <Card.Img variant="top" src={require("../images/React Banner.png")} />
-                    <Card.Header>
-                        <Card.Title as="h3" className="text-center">JavaScript Library</Card.Title>
-                        <Card.Subtitle className="text-center">created by Meta</Card.Subtitle>
+                    <Card.Header className="text-center">
+                        <Card.Title as="h3">JavaScript Library</Card.Title>
+                        <Card.Subtitle>created by Meta</Card.Subtitle>
                     </Card.Header>
                     <ListGroup as="ul" variant="flush">
                         <ListGroup.Item>build user interfaces</ListGroup.Item>
