@@ -3,11 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import TabMenu from './components/TabMenu.js';
 
-function App(props) {
+function App() {
   return (
     <>
     <TabMenu />
-    
+
     </>
   );
 }
