@@ -1,7 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Popover from 'react-bootstrap/Popover';
-import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
@@ -35,7 +32,6 @@ function Home() {
                     <hr/>
                     For further information, you can check the GitHub Repository. In addition to the source code, you will also find the sources which provide useful stuff about React, Bootstrap and JSX.
                     </Card.Text>
-                    {/**/}
                 </Card.Body>
 
             </Card>
