@@ -7,8 +7,9 @@ import Start from './Start';
 import About from './About';
 import Development from './Development';
 import Examples from './Examples';
+import Footer from './Footer';
 
-function TabMenu(props) {
+function TabMenu() {
     return (
         <Row>
             <h2 className="ms-2 mt-1 d-flex align-items-center"><Image src={require("../images/React-Bootstrap Icon.png")} style={{height: "2rem", width: "auto"}} className="me-2"/>SE: React App</h2>
@@ -17,15 +18,19 @@ function TabMenu(props) {
                 <h2>SE: React App</h2>
                 <Tab eventKey="start" title="Start">
                     <Start />
+                    <Footer progress="25" />
                 </Tab>
                 <Tab eventKey="about" title="About React">
                     <About />
+                    <Footer progress="50" />
                 </Tab>
                 <Tab eventKey="dev" title="Development">
                     <Development />
+                    <Footer progress="75" />
                 </Tab>
                 <Tab eventKey="code" title="Examples">
                     <Examples />
+                    <Footer progress="100" />
                 </Tab>
             </Tabs>
         </Row>

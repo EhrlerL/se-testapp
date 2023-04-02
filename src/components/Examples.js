@@ -28,7 +28,7 @@ function Examples() {
 
 
         {/* Row and Col for easy Layouting */}
-        <Row className="justify-content-center mx-5 mb-3">
+        <Row className="justify-content-center mx-5 mb-5">
             <Col>
                 {/* Card component with top image, header and text */}
                 <Card border="primary">
