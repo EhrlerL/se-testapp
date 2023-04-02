@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Figure from 'react-bootstrap/Figure';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 function Home() {
@@ -39,7 +40,10 @@ function Home() {
         </Row>
         <Row className="justify-content-center mb-5">
             <Col className="text-center">
-                <Image src={require("../images/qr-code.png")} style={{height: "15rem", width: "auto"}} alt="GitHub Repository QR-Code" rounded/>
+                <Figure>
+                    <Figure.Image src={require("../images/qr-code.png")} style={{height: "15rem", width: "auto"}} alt="GitHub Repository QR-Code" rounded/>
+                    <Figure.Caption>GitHub</Figure.Caption>
+                </Figure>
             </Col>
         </Row>
         </>

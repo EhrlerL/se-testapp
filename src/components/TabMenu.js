@@ -7,6 +7,7 @@ import Start from './Start';
 import About from './About';
 import Development from './Development';
 import Examples from './Examples';
+import End from './End';
 import Footer from './Footer';
 
 function TabMenu() {
@@ -18,18 +19,22 @@ function TabMenu() {
                 <h2>SE: React App</h2>
                 <Tab eventKey="start" title="Start">
                     <Start />
-                    <Footer progress="25" />
+                    <Footer progress="20" />
                 </Tab>
                 <Tab eventKey="about" title="About React">
                     <About />
-                    <Footer progress="50" />
+                    <Footer progress="40" />
                 </Tab>
                 <Tab eventKey="dev" title="Development">
                     <Development />
-                    <Footer progress="75" />
+                    <Footer progress="60" />
                 </Tab>
                 <Tab eventKey="code" title="Examples">
                     <Examples />
+                    <Footer progress="80" />
+                </Tab>
+                <Tab eventKey="end" title="End">
+                    <End />
                     <Footer progress="100" />
                 </Tab>
             </Tabs>
