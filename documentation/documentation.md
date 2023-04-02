@@ -60,8 +60,10 @@ For further information, you can check the [GitHub Repository](https://github.co
 ## Creating and Importing Components
 ### Creating Components
 1. Create a new JSX file, e.g. Test.js in the src folder or a sub folder.
+
    ![creating JSX file Test.js](../src/images/screenshot-create-component1.png)
 2. Add the basic JSX structure. This structure is required for every JSX file. 
+
    ![adding required JSX structure](../src/images/screenshot-create-component2.png)
    1. Add your JavaScript code inside the function that is named after your component. Make shure that any variables and functions are declared before the 'return' function.
    2. The return function contains the JSX code. It is slightly adapted HTML combined with JavaScript. JavaScript code has to be nested using curly brackets.
@@ -69,6 +71,7 @@ For further information, you can check the [GitHub Repository](https://github.co
    4. Finally, your component has to end by 'export default Test;'.
 > Note that you cannot use HTML comments. You need to use the JavaScript comment syntax and therefore wrap a comment into curly brackets.
 3. Start adding the actual component code. 
+
    ![custom button component](../src/images/screenshot-create-component3.png)
    - In this component, a HTML button is configured as a submit button with some CSS.
    - The button has the text "Button". This is because the 'const variable' has been declared before the return function.
@@ -77,16 +80,22 @@ For further information, you can check the [GitHub Repository](https://github.co
 
 ### Importing Components
 1. You can import components at the top of another component or the "top component" App.js. In the path, you do not need to add the file type '.js'
+
    ![import a custom component](../src/images/screenshot-import-component1.png)
 2. To display the component, you need to add it as a HTML element.
+
    ![insert custom component](../src/images/screenshot-import-component2.png)
+
    ![custom component in DOM](../src/images/screenshot-import-component3.png)
 > Remember that in JSX, HTML tags must always be closed.
 
 ## Importing Bootstrap Components
 1. Just like with your own components, you need to import Bootstrap components at the top of another component.
+
    ![import a bootstrap button component](../src/images/screenshot-import-bscomponent1.png)
 2. To display the component, you need to add it as a HTML element.
+
    ![insert bootstrap button component](../src/images/screenshot-import-bscomponent2.png)
+   
    ![bootstrap button component in DOM](../src/images/screenshot-import-bscomponent3.png)
 > Bootstrap components are highly customisable. For further information, it is useful to check the official [React-Bootstrap Documentation](https://react-bootstrap.netlify.app/).
